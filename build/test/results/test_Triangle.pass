@@ -1,0 +1,43 @@
+---
+:source:
+  :path: test
+  :file: test_Triangle.c
+:successes:
+- :test: test_getTriangleName_given_2_2_5_expects_is_isosceles
+  :line: 12
+  :message: ''
+- :test: test_getTriangleName_given_2_2_minus5_expects_is_not_a_triangle
+  :line: 19
+  :message: ''
+- :test: test_getTriangleName_given_2_0_3_expects_is_not_a_triangle
+  :line: 26
+  :message: ''
+- :test: test_getTriangleName_given_12_12_12_expects_is_equilateral
+  :line: 33
+  :message: ''
+- :test: test_getTriangleName_given_minus1_minus1_minus1_expects_is_not_a_triangle
+  :line: 40
+  :message: ''
+- :test: test_getTriangleName_given_5_1_8_expects_is_scalene
+  :line: 47
+  :message: ''
+- :test: test_getTriangleName_given_minus5_1_minus8_expects_is_not_a_triangle
+  :line: 54
+  :message: ''
+- :test: test_getTriangleName_given_15_60_15_expects_is_isosceles
+  :line: 61
+  :message: ''
+- :test: test_add_2_with_5_expect_7
+  :line: 68
+  :message: ''
+- :test: test_add_9_with_minus20_expect_minus11
+  :line: 76
+  :message: ''
+:failures: []
+:ignores: []
+:counts:
+  :total: 10
+  :passed: 10
+  :failed: 0
+  :ignored: 0
+:stdout: []
